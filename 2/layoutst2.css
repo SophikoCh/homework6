@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+
+html,
+body {
+    height: 100%;
+    width: auto;
+}
+
 header {
     background-color: aliceblue;
     border: 1px solid black;
+    height: 30%;
     text-align: center;
     padding: 30px;
 }
@@ -20,12 +28,8 @@ header {
     border-left: none;
     border-top: none;
 }
-
-.column1 {
-    float: left;
-    background-color: aliceblue;
+div {
+    height: 100%;
     border: 1px solid black;
-    padding: 15px;
-    width: 33.33%;
-    border-top: none;
+    border-top:none ;
 }

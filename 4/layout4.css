@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+
 header {
     background-color: #f1f1f1;
     border: 1px solid black;
@@ -17,6 +23,6 @@ header {
     border: 1px solid black;
     padding: 15px;
     width: 33.33%;
-    
+
 }
 
