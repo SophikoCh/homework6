@@ -10,19 +10,15 @@ body {
     width: 100%;
 }
 
-
 header {
     background-color: #f1f1f1;
     border: 1px solid black;
-    padding: 15px;
-    text-align: center;
-    height: 20%;
+    height: 25%;
 }
 
-.leftside {
-    float: left;
+.longcolumn {
+    background-color: #f1f1f1;
     border: 1px solid black;
-    padding: 15px;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,25 +26,23 @@ header {
     width: 20%;
 }
 
-.middle {
+.middlecolumn {
     float: left;
+    display: block;
     background-color: #f1f1f1;
-    padding: 15px;
-    height: 60%;
-    width: 80%
+    width: 80%;
+    height:50% ;
 }
 
-.rightside {
-    float: left;
+.thirdcolumn{
+    float: right;
     background-color: #f1f1f1;
     border: 1px solid black;
     border-top: none;
     border-bottom: none;
-    padding: 15px;
-    height: 60%;
-    width: 20%;
+    width:calc(20% - 1px);
+    height:50% ;
 }
-
 footer {
     background-color: #f1f1f1;
     border: 1px solid black;
@@ -56,8 +50,5 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
-    text-align: center;
-    border: 1 px solid black;
-    height:20%;
+    height: 25%;
 }

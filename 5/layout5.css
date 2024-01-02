@@ -23,6 +23,7 @@ header {
     float: left;
     border: 1px solid black;
     padding: 15px;
+    /* height: 79%; */
     position: fixed;
     top: 0;
     left: 0;
@@ -31,21 +32,23 @@ header {
 }
 
 .middle {
-    float: left;
     background-color: #f1f1f1;
     padding: 15px;
     height: 60%;
-    width: 80%
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    
 }
 
 .rightside {
-    float: left;
-    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
     border: 1px solid black;
-    border-top: none;
-    border-bottom: none;
     padding: 15px;
-    height: 60%;
     width: 20%;
 }
 
@@ -56,8 +59,8 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
+    padding: 15px;;
     text-align: center;
-    border: 1 px solid black;
-    height:20%;
+    border: 1px solid black;
+    height: 20%;
 }

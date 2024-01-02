@@ -8,8 +8,8 @@ header {
     background-color: aliceblue;
     border: 1px solid black;
     text-align: center;
-    padding: 30px;
-    height: 33.33%;
+    padding:10px;
+    height:10%
 }
 
 .column {
@@ -18,28 +18,20 @@ header {
     border: 1px solid black;
     padding: 15px;
     width: 33.33%;
-    height: 100%;
+    height:60%;
     border-left: none;
     border-top: none;
 }
 
-.column1 {
-    float: left;
-    background-color: aliceblue;
-    border: 1px solid black;
-    padding: 15px;
-    width: 33.33%;
-    height: 20%;
-    border-top: none;
-}
-
-div {
-    height:70%;
-}
-
 footer {
     background-color: aliceblue;
-    padding: 30px;
+    padding:10px;
     text-align: center;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
     
 }
