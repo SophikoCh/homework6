@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    animation-duration: 8s;
+    animation: moveBox 8s forwards;
+}
+
+@keyframes moveBox {
+    0% {
+        left: 0;
+
+    }
+
+    50% {
+        left: calc(50% - 50px);
+
+    }
+
+    100% {
+        left: calc(100% - 100px);
+
+    }
+}
